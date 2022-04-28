@@ -1,5 +1,14 @@
 { 
     "watchForFileChanges":false,
-     "defaultCommandTimeout":20000
-
+     "defaultCommandTimeout":20000, 
+     "reporter": "mochawesome",
+     "reporterOptions": {
+     "charts": true,
+     "overwrite": false, 
+    "html": false,
+    "json": true,
+    "reportDir": "FirstProject/report/mochawesome-report"
 }
+}
+
+
